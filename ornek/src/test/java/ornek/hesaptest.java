@@ -12,4 +12,10 @@ public class hesaptest {
 		Assert.assertEquals(3628800,sonuc);
 		
 	}
+	@Test
+	public void deneme() {
+		hesap h=new hesap();
+		int sonuc =h.toplam(2,2);
+		Assert.assertEquals(4,sonuc);
+	}
 }
